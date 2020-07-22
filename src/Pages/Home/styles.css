@@ -21,10 +21,27 @@
 
 .anuncio{
     grid-area: anuncio;
+    background: #fafbfc;
+    display: grid;
+    align-content: flex-start;
+    padding: 30px;
+    gap: 30px;
+}
+.img-anuncio{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
 }
 
 .footer{
     grid-area: footer;
+    background: linear-gradient(135deg, #49e61b, #daff40);
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
 
 li{

@@ -62,20 +62,20 @@ function HomeScreen() {
           </p>
         </div>
 
-        <img src={require('../../Assets/Images/rickbg.jpg')}/>
+        <img src={require('../../Assets/Images/rickbg.jpg')} />
       </main>
 
       <aside className="anuncio">
         <div className="anuncio-item">
-          img 1
+          <img className="img-anuncio" src={require('../../Assets/Images/caneca.jpg')} />
         </div>
         <div className="anuncio-item">
-          img 2
+          <img className="img-anuncio" src={require('../../Assets/Images/caneca1.jpg')} />
         </div>
       </aside>
 
       <footer className="footer">
-        <span>Footer</span>
+        <p>© 2020 PIXELS, Inc. All Rights Reserved.</p>
       </footer>
 
     </div>
