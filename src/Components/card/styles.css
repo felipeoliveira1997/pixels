@@ -1,0 +1,27 @@
+.card-inf{
+    width: 80px;
+    text-align: center;
+    background: linear-gradient(135deg, #49e61b, #daff40);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+}
+
+.card-inf span{
+    display: block;
+    color: #00b0c8;
+
+}
+
+.number{
+    font-size: 3em;
+    line-height: 1;
+    margin: 10 auto;
+}
+
+.tag{
+    background: white;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+    position: relative;
+    top: 2px;
+}

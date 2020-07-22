@@ -18,7 +18,7 @@ function HomeScreen() {
       <main className="content">
 
         <div className="title">
-          <h1>Rick ?</h1>
+          <h1>Rick Sanchez</h1>
           <span>Personagem Principal</span>
         </div>
 
@@ -27,28 +27,27 @@ function HomeScreen() {
           <Card number={75} tag={'Age'} />
         </div>
 
-        <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
-          character that views his time as valuable</p>
+        <div className="col-wide">Um cientista alcoólatra de 70 anos extremamente inteligente que é capaz de construir máquinas e acessórios tecnológicos que o 
+        permitem viajar por diversas dimensões e realidades paralelas. 
+        Ele quase nunca pensa nas consequências de suas ações e possui um comportamento excêntrico e um estilo de vida niilista. </div>
 
-        <img src={require('../../Assets/Images/rick.png')} />
+        <img className="image-1 image-rick" src={require('../../Assets/Images/rick.png')} />
 
-        <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
-          character that views his time as valuable</p>
+        <p className="destaque">É pai de Beth, sogro de Jerry e avô de Morty e Summer.</p>
 
-        <img src={require('../../Assets/Images/rick.png')} />
-
-        <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
-          character that views his time as valuable</p>
+        <img className="image-2 image-rick2" src={require('../../Assets/Images/rick22.png')} />
 
         <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
           character that views his time as valuable</p>
 
-        <blockquote className="citacao">
-          <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
+        <p>His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty. An extremely intellectual
           character that views his time as valuable</p>
+
+        <blockquote className="citacao col-wide">
+          <div>Citação</div>
         </blockquote>
 
-        <ul>
+        <ul className="atributo">
           <li>Tipo: Mamifero</li>
           <li>Idade: 70</li>
         </ul>
@@ -62,7 +61,7 @@ function HomeScreen() {
           </p>
         </div>
 
-        <img src={require('../../Assets/Images/rickbg.jpg')} />
+        <img className="rick-bg" src={require('../../Assets/Images/rickbg.jpg')} />
       </main>
 
       <aside className="anuncio">

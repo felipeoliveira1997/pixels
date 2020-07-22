@@ -9,7 +9,7 @@ interface CardUI {
 
 export function Card(props: CardUI) {
     return (
-        <div>
+        <div className="card-inf">
             <span className="number">{props.number}</span>
             <span className="tag">{props.tag}</span>
         </div>
